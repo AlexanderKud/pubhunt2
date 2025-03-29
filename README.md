@@ -2,9 +2,14 @@
 This code attempts to find a private key for a given uncompressed public key using the secp256k1 curve.
 
 ## Compile with: 
-`g++ -o pubhunt pubhunt.cpp -lgmpxx -lgmp -lsecp256k1`
+```bash
+g++ -o pubhunt pubhunt.cpp -lgmpxx -lgmp -lsecp256k1
+```
+
 ## Run with: 
-`./pubhunt`
+```cpp
+./pubhunt
+```
 
 
 ## Note:
